@@ -1,5 +1,5 @@
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt update
+sudo apt upgrade
 sudo timedatectl set-local-rtc 1
-sudo apt-get install vim openssh-server guake filezilla ctags git tmux
+sudo apt install tmux htop git vim guake openssh-server net-tools cscope ctags filezilla
 sudo ln -s /usr/share/applications/guake.desktop /etc/xdg/autostart/
